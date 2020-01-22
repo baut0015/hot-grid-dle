@@ -10,8 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  line-height: 1.3;
-  font-family: "Roboto Slab", serif;
+  font: normal 100%/1.3 "Roboto Slab", serif;
 }
 
 *, *::before, *::after {
@@ -27,35 +26,16 @@ body {
   width: 100%;
 }
 
-img.img-flex:first-child {
+figure {
+  margin: 0;
   position: relative;
-}
-
-img.img-flex:nth-of-type(2) {
-  position: relative;
-}
-
-img.img-flex:last-child {
-  position: relative;
-}
-
-figure.veggie-burger:nth-of-type(2) {
-  position: absolute;
-}
-
-figure.veggie-burger:first-child {
-  position:absolute;
-}
-
-figure.veggie-burger:last-child {
-  position: absolute;
 }
 
 figcaption {
-  position: absolute;
   max-width: 15em;
   bottom: .5rem;
-  left: 1rem;
+  left: .5rem;
+  position: absolute;
   color: white;
   background-color: rgba(0, 0, 0, .5);
   padding: 1rem;
